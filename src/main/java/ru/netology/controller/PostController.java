@@ -12,7 +12,6 @@ import java.io.Reader;
 import java.util.List;
 import java.util.function.Supplier;
 
-@Controller
 public class PostController {
     public static final String APPLICATION_JSON = "application/json";
     private final PostService service;

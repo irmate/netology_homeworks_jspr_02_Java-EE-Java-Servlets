@@ -9,7 +9,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
-@Repository
 public class PostRepository {
     private final long INITIAL_COUNT = 1;
     private final AtomicLong count;
